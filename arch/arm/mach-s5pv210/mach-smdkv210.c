@@ -186,11 +186,11 @@ static struct s3c_fb_pd_win smdkv210_fb_win0 = {
 };
 
 static struct fb_videomode smdkv210_lcd_timing = {
-	.left_margin	= 13,
-	.right_margin	= 8,
-	.upper_margin	= 7,
-	.lower_margin	= 5,
-	.hsync_len	= 3,
+	.left_margin	= 46,
+	.right_margin	= 210,
+	.upper_margin	= 23,
+	.lower_margin	= 22,
+	.hsync_len	= 1,
 	.vsync_len	= 1,
 	.xres		= 800,
 	.yres		= 480,
